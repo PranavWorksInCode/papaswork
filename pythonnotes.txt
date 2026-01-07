@@ -1,0 +1,30 @@
+HOW TO SET UP PYTHON ON A NEW PC
+==================================
+
+1. DOWNLOAD PYTHON
+   - Go to: https://www.python.org/downloads/
+   - Download the latest version for Windows (e.g., Python 3.12 or newer).
+
+2. INSTALL PYTHON (VERY IMPORTANT)
+   - Run the installer you just downloaded.
+   - *** CRITICAL STEP ***: Before clicking "Install Now", look at the bottom of the window.
+   - Check the box that says: [x] Add python.exe to PATH
+   - Then click "Install Now".
+
+3. VERIFY INSTALLATION
+   - Open specific Command Prompt (search for "cmd" in Start Menu).
+   - Type this and press Enter:
+     python --version
+   - It should show something like "Python 3.12.x".
+
+4. INSTALL REQUIREMENTS
+   - Open Command Prompt.
+   - Navigate to the folder where you put these files. 
+     (Example: cd C:\Users\YourName\Desktop\papawork)
+   - Run this command:
+     pip install -r requirements.txt
+
+   - If it works, you will see a lot of "Downloading..." and "Successfully installed...".
+
+5. DONE
+   - Now you can run the "run_downloader.bat" or "setup_schedule.bat" files.
