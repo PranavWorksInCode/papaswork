@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets (IMPORTANT)
+credentials.json
+token.json
+
+# Output files
+sheets/
+*.xlsx
