@@ -23,8 +23,9 @@ You must manually transfer it.
 2.  **On the New PC**: Paste it into the `Desktop\papaswork` folder.
 
 ## Step 4: Install Dependencies
-In the `papaswork` folder on the New PC, run:
+Open Command Prompt and navigate to the folder:
 ```cmd
+cd Desktop\papaswork
 pip install -r requirements.txt
 ```
 
